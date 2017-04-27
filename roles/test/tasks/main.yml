@@ -1,0 +1,6 @@
+---
+- name: Update yum packages
+  yum: name=* state=latest
+
+- name: install sssd client
+  yum: name=sssd state=latest
